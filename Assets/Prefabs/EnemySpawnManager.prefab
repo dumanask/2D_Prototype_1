@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8285315594253474457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8285315594253474459}
+  - component: {fileID: 8285315594253474458}
+  m_Layer: 0
+  m_Name: EnemySpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8285315594253474459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285315594253474457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.77, y: -1.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8285315594253474458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285315594253474457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0f1880be929ba418a2c30b2b392991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManagerObject: {fileID: 7654220318740102973, guid: c14228da6f9f7d0408557a8323a6c20f, type: 3}
+  currentWave: 0
+  spawning: 0
+  totalWaves:
+  - Name: Wave 1
+    enemiesInWave:
+    - Name: Enemy 1
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 2
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 3
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 4
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 5
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+  - Name: Wave 2
+    enemiesInWave:
+    - Name: Enemy 1
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 2
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 3
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 4
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+    - Name: Enemy 5
+      enemyType: {fileID: 1823682103531899108, guid: 3d51de57bc66b24499acb7b069bd2da5, type: 3}
+      timeToNextEnemy: 1
+  spawnPoints:
+  - {fileID: 6669491969122169527, guid: 9c612b57873c56f49a343d4ec1417ba2, type: 3}
+  - {fileID: 3103054953740875599, guid: 898ceb33f15ced24ba9c3e1a7193db99, type: 3}
+  enemyHolder: {fileID: 5996557462859651642, guid: 49f1bca1edee05f458f2bcef1afc4a64, type: 3}
+  timeBetweenWaves: 3

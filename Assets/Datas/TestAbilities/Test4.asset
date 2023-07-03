@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9cff968d0ebadd4a9fe85849ff602bc, type: 3}
+  m_Name: Test4
+  m_EditorClassIdentifier: 
+  abilityIcon: {fileID: 21300000, guid: ec03f79379868c642b48ae5ddc821b6d, type: 3}
+  abilityName: ww
+  abilityDescription: 
+  abilityTypes: 0
+  isMelee: 0
+  animationsName: 
+  baseAbility: {fileID: 11400000, guid: e3a34723831cf654a8535b50778e21e9, type: 2}
+  connectedAbility: {fileID: 11400000, guid: e3a34723831cf654a8535b50778e21e9, type: 2}
+  abilityLevel: 2
+  damageAmount: 0
+  cooldown: 0
+  isCastAbility: 0
+  castAbility: {fileID: 0}
+  abilityRange: 0
+  abilityRadius: 0
+  abilitySpeed: 0
+  castPoint: {fileID: 0}

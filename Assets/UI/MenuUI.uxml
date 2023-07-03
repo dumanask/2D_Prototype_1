@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="project://database/Assets/UI/UIUss.uss?fileID=7433441132597879392&amp;guid=dcccb690bcc6c404f8f9ed369a0cf767&amp;type=3#UIUss" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+</ui:UXML>
